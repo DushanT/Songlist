@@ -2,6 +2,11 @@
 body {
 	// padding-top: 50px;
 }
+@font-face {
+	font-family: 'Icons';
+	src: url("../dist/semantic-ui/icons.eot");
+	src: url("../dist/semantic-ui/icons.eot?#iefix") format('embedded-opentype'), url("../dist/semantic-ui/icons.woff2") format('woff2'), url("../dist/semantic-ui/icons.woff") format('woff'), url("../dist/semantic-ui/icons.ttf") format('truetype'), url("../dist/semantic-ui/icons.svg#icons") format('svg');
+}
 .chord {
 	font-weight: bold;
 	vertical-align: super;

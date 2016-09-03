@@ -16,15 +16,18 @@
      <div id="main-content" class="ui center aligned styled accordion container"></div>
 
      <div class="autoscroll">
-          <div class="btn-group btn-group-vertical">
-               <div class="autoscroll-button autoscroll-start btn btn-md btn-default clarfix" data-scroll="start"><span class="glyphicon glyphicon-fast-backward"></span></div>
-               <div class="autoscroll-button autoscroll-up btn btn-md btn-default clarfix" data-scroll="-1"><span class="glyphicon glyphicon-backward"></span></div>
-               <div class="autoscroll-button autoscroll-clear btn btn-md btn-default clarfix" data-scroll="0"><span class="glyphicon glyphicon-stop"></span></div>
-               <div class="autoscroll-button autoscroll-down btn btn-md btn-default clarfix" data-scroll="1"><span class="glyphicon glyphicon-forward"></span></div>
-               <div class="autoscroll-button autoscroll-end btn btn-md btn-default clarfix" data-scroll="end"><span class="glyphicon glyphicon-fast-forward"></span></div>
-               <div class="autoscroll-button btn btn-default disabled" ></div>
-               <div class="transposition-button btn btn-default" data-transpose="1"><span class="glyphicon glyphicon-plus"></span></div>
-               <div class="transposition-button btn btn-default" data-transpose="-1"><span class="glyphicon glyphicon-minus"></span></div>
+          <div class="ui vertical buttons">
+               <div class="ui vertical buttons">
+                    <div class="autoscroll-button autoscroll-start ui icon button" data-scroll="start" data-tooltip="Scroll to beginning" data-position="left center"><i class="fast backward icon"></i></div>
+                    <div class="autoscroll-button autoscroll-up ui icon button" data-scroll="-1" data-tooltip="Auto scroll up" data-position="left center"><i class="backward icon"></i></div>
+                    <div class="autoscroll-button autoscroll-clear ui icon button" data-scroll="0" data-tooltip="Stop auto scroll" data-position="left center"><i class="stop icon"></i></div>
+                    <div class="autoscroll-button autoscroll-down ui icon button" data-scroll="1" data-tooltip="Auto scroll down" data-position="left center"><i class="forward icon"></i></div>
+                    <div class="autoscroll-button autoscroll-end ui icon button" data-scroll="end" data-tooltip="Scroll to end" data-position="left center"><i class="fast forward icon"></i></div>
+               </div>
+               <div class="ui vertical buttons">
+                    <div class="transposition-button ui icon button" data-transpose="1" data-tooltip="Transpose +1" data-position="left center"><i class="plus icon"></i></div>
+                    <div class="transposition-button ui icon button" data-transpose="-1" data-tooltip="Transpose -1" data-position="left center"><i class="minus icon"></i></div>
+               </div>
           </div>
      </div>
 </body>

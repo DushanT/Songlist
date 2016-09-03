@@ -3,19 +3,19 @@ var htmlTemplates = {
 
     bandsWrapper: '<div class="ui tab" data-tab="bands-{band.lang}" ></div>',
 
-    band:  '<div id="band-{band.id}" class="ui title js-toggle-songs">\
+    band:  '<div id="band-{band.id}" class="ui title band-content-header">\
                 <h3 class="ui header" >{band.name}<span class="ui circular label">{band.badge}</span></h3>\
             </div>\
-            <div class="ui content" >\
+            <div class="ui content band-content-wrapper" >\
                 <div class="accordion">\
                    {songs.html}\
                 </div>\
             </div>',
 
-    song:  '<div id="song-{song.id}" class="ui title js-toggle-song-content">\
+    song:  '<div id="song-{song.id}" class="ui title song-content-header">\
                 <h4 class="ui header">{song.title}</h4>\
             </div>\
-            <div class="ui content left aligned container">\
+            <div class="ui content left aligned container song-content-wrapper">\
                 {song.content}\
             </div>'
 };

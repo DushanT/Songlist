@@ -4,7 +4,8 @@ $(function(){
 	var mainContent = $("#main-content"),
 		mainMenu = $(".main-menu"),
 		scrollButtons = $(".autoscroll-button"),
-		transpositionButtons = $(".transposition-button");
+		transpositionButtons = $(".transposition-button"),
+		tabs = $(".bands-tab");
 
 	var songlistLS = {
 		lastBandId: "",
@@ -63,51 +64,57 @@ $(function(){
 			.appendTo(mainContent);
 	}
 	
-	$(".ui.menu .item").tab();
+	$(".ui.menu .bands-tab")
+		.tab({
+			onVisible: function () {
+				var localSet = false;
+				if ($('.band-content-header.active', this).length) {
+					songlistLS.lastBandId = '#' + $('.band-content-header.active', this).attr('id');
+					localSet = true;
+				}
+				if ($('.song-content-header.active', this).length) {
+					songlistLS.lastSongId = '#' + $('.song-content-header.active', this).attr('id');
+					localSet = true;
+				}
+				if (localSet) {
+					localStorage.setItem('songlist', JSON.stringify(songlistLS));
+				}
+			}
+		})
+		.on('click', function () {
+			songlistLS.lastLangId = '#' + $(this).attr('id');
+			localStorage.setItem('songlist', JSON.stringify(songlistLS));
+		});
+
 	$(".ui.accordion").accordion({
 		onOpen: function () {
-			console.log($(this).data('local'));
-			$(document).trigger('ui.accordion.open', $(this));
+			if($(this).hasClass('band-content-wrapper')) {
+				openBand($(this), $(this).prev());
+			} else {
+				openSong($(this), $(this).prev());
+			}	
 		}, 
 		onClose: function () {
-			
-			$(document).trigger('ui.accordion.close', $(this));
+			if($(this).hasClass('band-content-wrapper')) {
+				closeBand($(this));
+			} else {
+				closeSong($(this));
+			}	
 		}
 	});
-
-	$(".js-toggle-songs").on('click', function () {
-		// if ($(this).hasClass('active') {}
-	});	
 
 	var lastScrollPosition = document.body.scrollTop;
 	var scrollSpeed = 0;
 	// var scrollMax = 10;
 	var interval = null;
 
-	var tlPageLoad = new TimelineMax();
-	var tlOpenSong = new TimelineMax();
-	var tlOpenBand = new TimelineMax();
-	var tlCloseSong = new TimelineMax();
-	var tlCloseBand = new TimelineMax();
-
-	var tabs = $(".bands-tab");
-	// tlPageLoad.staggerFromTo(tabs, 0.5, { yPercent: -100, autoAlpha: 0 }, { yPercent: 0, autoAlpha: 1, ease: Power2.easeOut }, 0.5);
-
-	tabs.on('click', function() {
-		
-		songlistLS.lastLangId = '#' + $(this).attr('id');
-		localStorage.setItem('songlist', JSON.stringify(songlistLS));
-
-		closeBand($(".band-content-wrapper.active"));
-	});
-
 	var activeScrollPositionBottom;
 
 	
 	scrollButtons.on('click', function () {
-		TweenMax.fromTo($('> span', this), 0.4, { scale: 2.5 }, { scale: 1 });
+		TweenMax.fromTo($('> .icon', this), 0.4, { scale: 2.5 }, { scale: 1 });
 
-		// console.log(scrollSpeed, 'before');
+
 		var dataScroll = $(this).data('scroll');
 		var activeSong = $(".song-content-wrapper.active");
 		if (isNaN(parseInt(dataScroll))) {
@@ -146,7 +153,7 @@ $(function(){
 	var chords = ['A','B','C','D','E','F','G'];
 	
 	transpositionButtons.on('click', function () {
-		TweenMax.fromTo($('> span', this), 0.4, { scale: 2.5 }, { scale: 1 });
+		TweenMax.fromTo($('> .icon', this), 0.4, { scale: 2.5 }, { scale: 1 });
 		
 		var $chords = $('.song-content-wrapper.active').find('.chord');
 		var transpose = parseInt($(this).data('transpose'));
@@ -212,15 +219,19 @@ $(function(){
 		scrollSpeed = 0;
 	}
 
-	function openSong(element) {
+	function openSong(element, scrollElement) {
 		if(element && !element.length) {return;}
 
-		closeSong($('.song-content-wrapper.active'), null, function() {
+		songlistLS.lastSongId = '#' + element.prev().attr('id');
+		localStorage.setItem('songlist', JSON.stringify(songlistLS));
 
-			songlistLS.lastSongId = '#' + element.prev().attr('id');
-			localStorage.setItem('songlist', JSON.stringify(songlistLS));
-			
-		});
+		scrollToElement(scrollElement, 1);
+
+		if(element.height() > $(window).height()) {
+			TweenMax.staggerFromTo(scrollButtons, 0.3, { x: 100 }, { autoAlpha: 1, x: 0, ease: Back.easeInOut }, 0.05);
+			TweenMax.staggerTo('.autoscroll-button .icon', 0.3, { rotation: 90, y: 2 }, 0.05);
+		}
+		TweenMax.staggerFromTo(transpositionButtons, 0.3, { x: 100 }, { autoAlpha: 1, x: 0, ease: Back.easeInOut }, 0.05);
 	}
 
 	function closeSong(element, scrollElement, callback) {
@@ -234,23 +245,20 @@ $(function(){
 		songlistLS.lastSongId = "";
 		localStorage.setItem('songlist', JSON.stringify(songlistLS));
 
-		if (scrollElement && scrollElement.length) {
-			scrollToElement(scrollElement, 1);
-		}
+		hideButtons();
+
+		scrollToElement(scrollElement, 1);
 	}
 
 	function openBand(element, scrollElement) {
 		if(element && !element.length) {return;}
+
+		songlistLS.lastBandId = '#' + element.prev().attr('id');
+		localStorage.setItem('songlist', JSON.stringify(songlistLS));
+
+		hideButtons();
 		
-		closeBand($(".band-content-wrapper.active"), null, function() {
-
-			songlistLS.lastBandId = '#' + element.prev().attr('id');
-			localStorage.setItem('songlist', JSON.stringify(songlistLS));
-
-			if (scrollElement && scrollElement.length) {
-				scrollToElement(scrollElement, 1);
-			}
-		});
+		scrollToElement(scrollElement, 1);
 	}
 
 	function closeBand(element, scrollElement, callback) {
@@ -261,41 +269,49 @@ $(function(){
 			return;
 		}
 
-		closeSong($('.song-content-wrapper.active'), null, function() {
-			songlistLS.lastBandId = "";
-			localStorage.setItem('songlist', JSON.stringify(songlistLS));
+		songlistLS.lastBandId = "";
+		localStorage.setItem('songlist', JSON.stringify(songlistLS));
 
-			if (scrollElement && scrollElement.length) {
-				scrollToElement(scrollElement, 1);
-			}
-			
-		});
+		hideButtons();
+		
+		scrollToElement(scrollElement, 1);
+	}
+
+	function hideButtons() {
+		TweenMax.staggerTo(scrollButtons, 0.3, { rotation: 0, autoAlpha: 0, x: 100, ease: Back.easeInOut }, 0.05);
+		TweenMax.staggerTo(transpositionButtons, 0.3, { rotation: 0, autoAlpha: 0, x: 100, ease: Back.easeInOut }, 0.05);
 	}
 
 	function scrollToElement(element, duration, offset) {
-		var $body = $(document.body);
-		offset = offset || element.offset().top;
+		if (element && element.length) {
+			var $body = $(document.body);
+			offset = offset || element.offset().top;
 
-		TweenMax.to($body, duration, { scrollTop: offset - parseInt($body.css('paddingTop'))});
-	}
-
-	var lastLang = null;
-	var lastBand = null;
-	var lastSong = null;
-	if ( localStorage.songlist && ( songlistLS = JSON.parse(localStorage.songlist)) ) {
-		
-		if ((lastLang = $(songlistLS.lastLangId)) && lastLang.length) {
-			lastLang.click();
-		}
-
-		if ((lastBand = $(songlistLS.lastBandId)) && lastBand.length) {
-			openBand(lastBand.next(), lastBand);
-		}
-		
-		if ((lastSong = $(songlistLS.lastSongId)) && lastSong.length) {
-			openSong(lastSong.next());
+			TweenMax.to($body, duration, { scrollTop: offset - parseInt($body.css('paddingTop'))});
 		}
 	}
+
+	function localStorageInit() {
+		var lastLang = null,
+			lastBand = null,
+			lastSong = null;
+		if ( localStorage.songlist && ( songlistLS = JSON.parse(localStorage.songlist)) ) {
+			
+			if ((lastLang = $(songlistLS.lastLangId)) && lastLang.length) {
+				lastLang.click();
+			}
+
+			if ((lastBand = $(songlistLS.lastBandId)) && lastBand.length) {
+				lastBand.click();
+			}
+			
+			if ((lastSong = $(songlistLS.lastSongId)) && lastSong.length) {
+				lastSong.click();
+			}
+		}
+	}
+
+	localStorageInit();
 
 	
 
