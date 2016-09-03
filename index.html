@@ -8,16 +8,12 @@
      <script src="./dist/main.min.js"></script>
 </head>
 <body>
-     <div class="navbar navbar-default navbar-fixed-top">
-          <div class="container-fluid">
-               <ul id="main-nav" class="nav nav-pills nav-justified">
-                    
-               </ul>
-          </div>
-     </div>
      
-     <div id="main-content" class="container-fluid tab-content">
-     </div>
+     <div class="ui fluid three item secondary pointing menu main-menu"></div>
+
+     <div class="ui divider"></div>
+
+     <div id="main-content" class="ui center aligned styled accordion container"></div>
 
      <div class="autoscroll">
           <div class="btn-group btn-group-vertical">
@@ -26,6 +22,9 @@
                <div class="autoscroll-button autoscroll-clear btn btn-md btn-default clarfix" data-scroll="0"><span class="glyphicon glyphicon-stop"></span></div>
                <div class="autoscroll-button autoscroll-down btn btn-md btn-default clarfix" data-scroll="1"><span class="glyphicon glyphicon-forward"></span></div>
                <div class="autoscroll-button autoscroll-end btn btn-md btn-default clarfix" data-scroll="end"><span class="glyphicon glyphicon-fast-forward"></span></div>
+               <div class="autoscroll-button btn btn-default disabled" ></div>
+               <div class="transposition-button btn btn-default" data-transpose="1"><span class="glyphicon glyphicon-plus"></span></div>
+               <div class="transposition-button btn btn-default" data-transpose="-1"><span class="glyphicon glyphicon-minus"></span></div>
           </div>
      </div>
 </body>

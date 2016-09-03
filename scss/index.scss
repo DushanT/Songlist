@@ -1,17 +1,20 @@
 /* styly pre index */
 body {
-	padding-top: 50px;
+	// padding-top: 50px;
 }
 .chord {
 	font-weight: bold;
 	vertical-align: super;
-	font-size: 1.5rem;
+	font-size: 1.1rem;
+}
+.band-wrapper {
+	margin-bottom: 10px;
 }
 .song-name {
 	cursor: pointer;
 }
-.song-content {
-	width: 80%;
+.song-content-wrapper {
+	padding: 10px;
 }
 .autoscroll {
 	position: fixed;
@@ -24,4 +27,11 @@ body {
 	&-button {
 		opacity: 0;
 	}
+}
+
+.transposition-button {
+	opacity: 0;
+}
+.list-group {
+	margin-bottom: 10px;
 }
