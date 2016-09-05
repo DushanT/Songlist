@@ -811,6 +811,16 @@ var db = {
                     "content": ";;  Jaro Filip  My  1.  [Cmi]My  sme národ holubi[B]čí,  [G#]nikto  nám nič nedoži[Gsus4]čí.  [G]  Každý na nás iba kričí,  je to o nás známe.  2. Kde kto z nás len kožu derie,  podchvíľou z nás lieta perie.  Občas nás to strašne zlostí,  lebo nie sme takí sprostí  ako vyzeráme.  3. My sme nerozbili atóm - to je pravda a čo na tom.  Skúste zrátať ľudia premilí, tie kotrby, čo sme rozbili.  My sme neponúkli svetu Pytagorovu vetu a napriek tomu sme tu  a s tým sa bude treba zmieriť.  4. Aj keď sme ešte trochu mladí,  nik si s nami neporadí.  Napriek tomu si však radi,  sem-tam zavzdycháme.  5. My sme národ holubičí,  nikto nám nič nedožičí.  Každý na nás iba kričí,  jedným slovom je to o nás  je to o nás známe.  ;;;"
                 }
             }
+        },
+        "41": {
+            "name": "Fools Garden",
+            "lang": "en",
+            "songs": {
+                "0": {
+                    "title": "Lemon Tree",
+                    "content": "Intro: [Emi], [Hmi], [Emi], [Hmi], [Ami], [Hmi], [Emi] ; ;I'm [Emi]sitting here in a [Hmi]boring room, ;it's [Emi]just another rainy sunday ;[Hmi]afternoon ;I'm [Emi]wasting my time I got [Hmi]nothing to do, ;I'm [Emi]hanging around I'm ;[Hmi]waiting for you ;But [Ami]nothing ever happens [B];- and I [Emi]wonder ; ;I'm [Emi]driving around [Hmi]in my car, ;I'm [Emi]driving too fast I'm [Hmi]driving ;too far ;I'd [Emi]like to change my [Hmi]point of view, ;I [Emi]feel so lonely I'm ;[Hmi]waiting for you ;But [Ami]nothing ever happens [B];- and I [Emi]wonder ; ;®:I [G]wonder how I [D]wonder why ;[Emi]yesterday you told me 'bout the [Hmi]blue blue sky ;and [C]all that I can [D]see ;is just a yellow [G]lemon-tree    [D] ;I'm [G]turning my head [D]up and down ;I'm [Emi]turning turning turning turning ;[Hmi]turning around ;And [C]all that I can [D]see ;is just a yellow [G]lemon-tree    [D] ; ;[Emi]Dip, [Hmi]da da di da da ;[Emi]di dap di di...[Hmi]...[Ami]...[Emi]... ; ;I'm [Emi]sitting here I [Hmi]miss the power, ;I'd [Emi]like to go out [Hmi]taking a shower ;But [Emi]there's a heavy cloud in[Hmi]side my head, ;I [Emi]feel so tired put [Bmi]myself into bed ;Where [Ami]nothing ever happens[B] - and I wonder[Emi] ; ;[B]Isolation - [Emi]is not good for me ;- [D]Isolation - [G]I don't want to ;[B]sit on a lemon-tree ; ;I'm [Emi]steppin' around in a [Bmi]desert of joy, ;[Emi]baby anyhow I'll get ;an[Bmi]other toy ;and [Ami]everything will happen[B] - and you'll wond[Emi]er ; ;R: ; ;And [C]all that I can [D]see - [C]All that I can [D]see - is just a yellow ;[G]lemon-tree"
+                }
+            }
         }
     }
 };
