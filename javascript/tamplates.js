@@ -1,6 +1,6 @@
 var htmlTemplates = {
     tab:   '<a id="tab-{tab.id}" class="item bands-tab" data-tab="bands-{tab.lang}" >\
-                {tab.langUpper}<span class="ui circular label">{tab.badge}</span>\
+                {tab.langUpper}<span class="ui label">{tab.badge}</span>\
             </a>',
 
     bandsWrapper: '<div class="ui tab" data-tab="bands-{band.lang}" ></div>',

@@ -821,6 +821,30 @@ var db = {
                     "content": "Intro: [Emi], [Hmi], [Emi], [Hmi], [Ami], [Hmi], [Emi] ; ;I'm [Emi]sitting here in a [Hmi]boring room, ;it's [Emi]just another rainy sunday ;[Hmi]afternoon ;I'm [Emi]wasting my time I got [Hmi]nothing to do, ;I'm [Emi]hanging around I'm ;[Hmi]waiting for you ;But [Ami]nothing ever happens [B];- and I [Emi]wonder ; ;I'm [Emi]driving around [Hmi]in my car, ;I'm [Emi]driving too fast I'm [Hmi]driving ;too far ;I'd [Emi]like to change my [Hmi]point of view, ;I [Emi]feel so lonely I'm ;[Hmi]waiting for you ;But [Ami]nothing ever happens [B];- and I [Emi]wonder ; ;®:I [G]wonder how I [D]wonder why ;[Emi]yesterday you told me 'bout the [Hmi]blue blue sky ;and [C]all that I can [D]see ;is just a yellow [G]lemon-tree    [D] ;I'm [G]turning my head [D]up and down ;I'm [Emi]turning turning turning turning ;[Hmi]turning around ;And [C]all that I can [D]see ;is just a yellow [G]lemon-tree    [D] ; ;[Emi]Dip, [Hmi]da da di da da ;[Emi]di dap di di...[Hmi]...[Ami]...[Emi]... ; ;I'm [Emi]sitting here I [Hmi]miss the power, ;I'd [Emi]like to go out [Hmi]taking a shower ;But [Emi]there's a heavy cloud in[Hmi]side my head, ;I [Emi]feel so tired put [Bmi]myself into bed ;Where [Ami]nothing ever happens[B] - and I wonder[Emi] ; ;[B]Isolation - [Emi]is not good for me ;- [D]Isolation - [G]I don't want to ;[B]sit on a lemon-tree ; ;I'm [Emi]steppin' around in a [Bmi]desert of joy, ;[Emi]baby anyhow I'll get ;an[Bmi]other toy ;and [Ami]everything will happen[B] - and you'll wond[Emi]er ; ;R: ; ;And [C]all that I can [D]see - [C]All that I can [D]see - is just a yellow ;[G]lemon-tree"
                 }
             }
+        },
+        "42": {
+            "name": "Shivali and Soham",
+            "lang": "en",
+            "songs": {
+                "0": {
+                    "title": "Until Only I Am",
+                    "content": "You give [Bm]nothingness to [F#m]nothingness ;[Bm]Take me awa[F#m]y until [G]only I [D]am    [Bm];You give emptiness to emptiness ;Take me away until only I am; ;Be[Bm]fore a [F#m]wave [G]rises it is [G]o[F#m]c[Bm]ean ;Before desire moves, it is emptiness; ;You everything to everything ;Take what I am not until only I am ;You give nothingness to nothingness ;Take me away until only I am; ;This eternal moment, there are no desires ;Just keep quiet and see what you really are ;Before a wave rises it is ocean ;Before desire moves, it is emptiness; ;You give nothingness to nothingness ;Take me away until only I am ;You give emptiness to emptiness ;Take me away until only I am"
+                }
+            }
+        },
+        "43": {
+            "name": "Korben Dallas",
+            "lang": "sk",
+            "songs": {
+                "0": {
+                    "title": "Otec",
+                    "content": ";;Intro: ;;[D#], [Cmi], [Gmi] 2x ;;[Gmi]Chcel by som byt lepší otec, ;[B]skorej chodiť, viac ťa obliecť ;do su[D#]chých [Cmi] noha[Gmi]víc. ;;[Gmi]Zaslúžia si naše mamy ;[B]lepších synov, než sme sami, ;kto už [D#] nás [Cmi] vycho[Gmi]vá? ;;Tužíš po viac pozornosti, ;po záujme o drobnosti, ;len zopár slov z mojich úst. ;;Aby som vždy presne vedel, ;kto s kým spáva, kto kde sedel ;a čo s tým urobím. ;;[D#maj7];;[Gmi] Chcem tisíc očí, [G#] dvanásť rúk, ;[D#] čo ťažko drú, [D7]a betónovú tvár, ;[Gmi] chcem na teba [G#] nezabudnúť, ;[D#] sa neuhnúť, [D7] ja viem, že sa to dá. ;;Chcem tisíc očí, dvanásť rúk, ;čo ťažko drú, a betónovú tvár. ;Chcem na teba nezabudnúť, ;byť lepší a lepší, ;vždy dalo by sa lepšie. ;;Chcel by som to robiť správne, ;ale asi celkom márne ;čakám, kým sa polepším. ;;Zatiaľ žmúrim, slepo strieľam, ;veci ničím, ľudí zdieram, ;ani sám sa nešetrím. ;;Chcem tisíc očí, dvanásť rúk, ;čo ťažko drú, a betónovú tvár, ;chcem na teba nezabudnúť, ;sa neuhnúť, ja viem, že sa to dá. ;;Chcem tisíc očí, dvanásť rúk, ;čo ťažko drú, a betónovú tvár. ;Chcem na teba nezabudnúť, ;byť lepší a lepší, ;vždy dalo by sa lepšie. ;;Chcel by som byt lepší otec, ;skorej chodiť, viac ťa obliecť ;do suchých nohavíc. ;;Zaslúžia si naše mamy ;lepších synov, než sme sami, ;kto už nás vychová?  ;;;"
+                },
+                "1": {
+                    "title": "Spovede",
+                    "content": ";;[F] 2x;;[F]Keď namiesto gúľ[Dmi];máš [B]spovede,[F];keď [F]do krojov [C]obliekaš [Dmi]obete;[Ami]svojich [B]predstáv o [F]svete.;;[F]Keď nemá kto povedať[Dmi],;Ujo vy [B]trepete! [F];Keď [F]jedna a [C]jedna sú [Dmi]dve,;aj [Ami]tri, aj [B]vata vo [F]vete.;;Keď [B]bazénmi perál a [Dmi]tonami kytíc;[As]meria sa život.[B];;[F] 2x ;;Keď namiesto gúľ;máš spovede,;keď do krojov obliekaš obete;svojich predstáv o svete.;;Keď pri rečiach o duši;hanbou sa nedusíš,;naopak podčiarkneš, podotkneš, zdôrazníš,;vraj musíš.;;Keď bazénmi perál a tonami kytíc;meria sa život  ;;;"
+                }
+            }
         }
     }
 };
