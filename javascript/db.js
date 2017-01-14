@@ -845,6 +845,64 @@ var db = {
                     "content": ";;[F] 2x;;[F]Keď namiesto gúľ[Dmi];máš [B]spovede,[F];keď [F]do krojov [C]obliekaš [Dmi]obete;[Ami]svojich [B]predstáv o [F]svete.;;[F]Keď nemá kto povedať[Dmi],;Ujo vy [B]trepete! [F];Keď [F]jedna a [C]jedna sú [Dmi]dve,;aj [Ami]tri, aj [B]vata vo [F]vete.;;Keď [B]bazénmi perál a [Dmi]tonami kytíc;[As]meria sa život.[B];;[F] 2x ;;Keď namiesto gúľ;máš spovede,;keď do krojov obliekaš obete;svojich predstáv o svete.;;Keď pri rečiach o duši;hanbou sa nedusíš,;naopak podčiarkneš, podotkneš, zdôrazníš,;vraj musíš.;;Keď bazénmi perál a tonami kytíc;meria sa život  ;;;"
                 }
             }
+        },
+        "44": {
+            "name": "Tom Odell",
+            "lang": "en",
+            "songs": {
+                "0": {
+                    "title": "Grow old with me",
+                    "content": ";;intro:;[G], [Am7];[G], [Am7];[G], [Am7];[G];;[G], [C], ;[G], [Am7];[G], [Am7];[G];;I can [G]feel you brea[Am7]thing;With your [G]hair on my [Am7]skin;As we [G]lie here wi[Am7]thin;The [G]night;;[G]I'll pull the [C]sheets;When it's [G]cold on your [Am7]feet;Cause you'll [G]fall back to sl[Am7]eep;Every [G]time;;Chorus:;[C]Grow old with [D]me;Let us [C]share what we [D]see;And oh the [C]best it could [D]be;Just you and [G]I;;And our hands they might age;And our bodies will change;But we'll still be the same;As we are;;We'll still sing our song;When our hair ain't so blonde;And our children have sung;We were right;;They'll sing;;Chorus;;And the hairs they stand up;And my feet start to thump;Yer the feeling is dreaming;Around;;You'll be the one;Make me hurt, make me come;Make me feel like I'm real;And alive;;Chorus 2x  ;;;"
+                },
+                "1": {
+                    "title": "Sense",
+                    "content": ";;[D]Hard to know, [D7]; Maybe if I [G]skim the stone, [Gm]; Walk a different [A]way back home, [Hm7]; It would all make [G]sense. [Gm];; Oh, shut my eyes,; Lose myself in teenage lies,; If I fell in love a thousand times,; Would it all make sense ?;; Cause [A]I,; I've been [G]feeling pretty small, ; Some[A]times,; Feel like I'm [G]sleeping down walls,; And every [A]lie,; I [Hm7]ever get a hold,; It seems to [Em]brea[A]k.;; Ca-Call you up,; I can tell you just how much,; No, no maybe I'll just get drunk,; And it will all make sense.;; Oh If I won so nice,; I convince my friends that you were right,; I can promise you my heart don't cry,; Would it all my sense ?;; Cause I,; I've been feeling pretty small,; Sometimes,; Feel like I'm sleeping down walls,; And every lie,; I ever get a hold,; It seems to break.;; Oh I,; I've been feeling pretty small,; Sometimes,; Feel like I'm sleeping down walls,; And every lie,; I ever get a hold,; It seems to break.  ;;;"
+                }
+            }
+        },
+        "45": {
+            "name": "Teitur",
+            "lang": "en",
+            "songs": {
+                "0": {
+                    "title": "All My Mistakes",
+                    "content": ";;Intro: [A] 4x;;[A]Who is to say who [E]wins or who lose[F#m]s  [F#m] 3x  [A];I [A]sing to myself at the [E]end of the day;When I [D]know[A] what the [D]blues is;And [E]all my mistakes have become[E7] masterpieces [E];;[A]I was born in the [E]goodness of gra[F#m]ce [F#m] 3x  [A];[A]Because of faith, [E]because of courage;Be[D]cause[A] of for[D]giveness;[E]All my mistakes have become[E7] masterpieces [E];;There comes a [D]time;You must [Hm]stay in the moment;While [A]bleeding;;[A7]There comes a [D]time;When you [Hm]must walk [A]heart's still [E]beating [E7];;[A]Who is to say who [E]wins or who lose[F#m]s [F#m] 3x  [A];I [A]sing to myself at the [E]end of the day;When I [D]know[A] what the [D]blues is;[E]All my mistakes have become[E7] masterpieces  ;;;"
+                }
+            }
+        },
+        "46": {
+            "name": "Nneka",
+            "lang": "en",
+            "songs": {
+                "0": {
+                    "title": "Restless",
+                    "content": ";;And in the [Ami]naked li[C]ght [C];[Ami], [C], [F], [C];;I'm [Ami]restless[C], in my dreams I [F]long for [C]you;I'm [Ami]careless[C] with the things I [F]own because of [C]you;[Ami]Speechless for [C]all that we had is [F]what we disregard [C]now;Feel [Ami]emptiness[C], m[F]hm [C];;[Ami]You had [G]enough, ;But [Ami]this time I see the [G]truth;[C]You don't need me no [Ami]more;[C]You don't need me no [G]more, [Ami]yeah;;I'm [Ami]restless[C] 'cos you don't l[F]ove me like I l[C]ove you;I'm [Ami]restless[C] 'cos my [F]love just ain't coming [C]through [Em];Tell me [Ami]how can your love [C]gather [F]so much of h[C]ate;Tell me [Ami]how can you love, [C]when we don't [F]practice what we pre[Em]ach;;Did we for[Ami]get all we have been thro[C]ugh [C];When my [Ami]eyes were stabb[C]ed by the flash of [F]light you brought [Em]through... ;There's [Ami]darkness surr[C]ounding my wo[F]rld [C];There's [Ami]darkness surr[C]ounding my wo[F]rld [C];If you don't [Ami]come now,[C] Lord, if you don't [F]come now, I'll di[Em]e;;You had enough, ;But this time I see the truth;You don't need me no more;You don't need me no more, yeah;;[Ami]And in the [C]naked li[F]ght, [Em];[Ami]I [C]see a [F]brighter da[C]y [Em];[Ami]And at the [C]end of the ro[F]ad, [Em] ;[Ami]I will [C]sit and [F]smile and [C]say:  [Em];;[Ami]You don't [C]need me no more;[F]You don't <a class=\"sup\" href=\"javascript:UkazAkord(94);\" id=\"akord[94]\" title=\"133211\">F</a>C<a class=\"sup\" href=\"javascript:UkazAkord(95);\" id=\"akord[95]\" title=\"133211\">F</a>need me no [Em]more;You don't need me no more;You don't need me no more;You don't need me no more;You don't need me no more;Now my work has been done and I set you free;You don't need me no more, you don't need me no more;My work has been done, breath, and so I set you free;You don't need me no more, you don't need me no more;So I set you free, so I set you free, so I set you free;You must go;Oh I set you free;;[Ami]And in the [C]naked li[F]ght, [C];[Ami]I [C]see a [F]brighter da[C]y  ;;;"
+                },
+                "1": {
+                    "title": "Shining Star",
+                    "content": ";;Intro:;[Es], [G], [Cmi];[F], [B], [Cmi];2x;;In this [Es]madness, in this [G]world,;With its [Cmi]swiftness and its coldness;You're my [F]peace of m[B]ind, [Cmi]yes!;When the w[Es]orld just keeps [G]turning;And I know not where to [Cmi]head to;You're [F]peace of [B]mind! [Cmi];And when I [Es]look up in the [G]skies;Is the [Cmi]only you created;Nothing [F]downstairs [B]count ;where you [Cmi]everlasting love, oooh;;Chorus:;[Es]Oh [G]shining [Cmi]star, [F]when you sm[B]ile down on [Cmi]me!;Oh, what you are?;When you look down at me;Beautiful star, do keep your eyes on me!;Oh, oh, what you are;When you look down at me?;;Despite my [Es]greed you, wanted [G]just me, ;sometimes you're [Cmi]hard strict, still you love me, ;I [F]appreciate you [B]ba[Cmi]by;And though you seem so, far away, ;you are so near, I can feel you,;Your light dwells within my mind;And I know you're sometimes lonely, ;oh how I wish that I could change it,;oh then I know you got me;And I pray my love would give you life, ;to help you breath, to give your smile, ;oh my shining star, so take my love and live;;Chorus:;Oh shining star, when you smile down on me!;Oh, what you are?;When you look down at me;;Bridge:;With [Es]yo[G]u, I [Cmi]feel love;When [Es]yo[G]u [As]place your light on me, [B]I feel [B7]warmth;;(Chorus);;Where you [Es]smile [Cmi];I [F]smi[B]le,[Cmi];Where you [Es]live I live,[G];Where you [Cmi]die, I die!;[F]Oh, [B]yeah! [Cmi]You!;;I'm a [Es]shining st[G]ar[Cmi], ;oh I wonder [F]what you a[B]re?[Cmi]  ;;;"
+                }
+            }
+        },
+        "47": {
+            "name": "Cat Stevens",
+            "lang": "en",
+            "songs": {
+                "0": {
+                    "title": "Father and Son",
+                    "content": ";;Father:;It's not [G]time to make a [D]change, just re[C]lax, take it [Ami7]easy;you're still [G]young, that's your [Emi]fault, there's so [Ami]much you have to ;[D]know;Find a [G]girl, settle [D]down, if you [C]want, you can [Ami7]marry;Look at [G]me, I am [Emi]old, but I'm [Ami]happy  [D];;I was [G]once like you are [D]now, and I [C]know that's it's not [Ami7]easy;to be [G]calm when you've [Emi]found something [Ami]going on [D];But take your [G]time, think a [D]lot, think of [C]everything you've [Ami7]got;for you will [G]still be here to[Emi]morrow, but your [D]dreams may [G]not  ;[C];;Son:;How can [G]I try to ex[D]plain, when I [C]do he turns a[Ami7]way again ;It's [G]always been the [Emi]same, same old [Ami]story.  [D];From the [G]moment I could [D]talk, I was [C]ordered to [Ami7]listen ;now there's a [G]way and I [Emi]know that I [D]have to [G]go away. I [D]know I ;[C]have to [G]go [C];;Father:;It's not [G]time to make a [D]change, just re[C]lax, take it [Ami7]slowly;you're still [G]young, that's your [Emi]fault, there's so [Ami]much you have to ;[D]go through;Find a [G]girl, settle [D]down, if you [C]want, you can [Ami7]marry;Look at [G]me, I am [Emi]old, but I'm [Ami]happy  [D];;Son:;All the [G]times that I've [D]tried keeping [C]all the things I [Ami7]knew ;inside;It's [G]hard but it's [Emi]harder to i[Ami]gnore it  [D];If they were [G]right, I'd a[D]gree, but it's [C]them they know not [Ami7]me ;now there's a [G]way and I [Emi]know that I [D]have to [G]go away. I [D]know I ;[C]have to [G]go;  ;;;"
+                }
+            }
+        },
+        "48": {
+            "name": "Mathew and the Atlas",
+            "lang": "en",
+            "songs": {
+                "0": {
+                    "title": "Old Master",
+                    "content": "Intro;[C]   [G][D]    [G][D]   [C];;[Verse 1];[C]I  dis[G]ap[D]peared, [C]I [D]found [C]a way;I made a choice, not to stay;I held it down, I watched it die;The life we made, faded away;;[Verse 2];Sometimes I see a shadow rise;Beneath my hands, then over me;I look into the great divide;I feel so strangely alive;;[Chorus];But I [G]kno[D]oo[Em]ow, that it ain’t [C]easy;And I find, some kind of comfort ;In the wiiiiiiide, open spaces;Yeah I [G]find some [D]kind of [C]comfort;;[Verse 3];The bed unmade, remembering;Conversations, returning;How strange it feels, to be reborn;My old master, my burning star;;[Chorus 2];But I know, that it ain’t easy;And I find, some kind of comfort;In the wide, open spaces;Yeah I find some kind of comfort ;       ;in the [D]spaces;"
+                }
+            }
         }
     }
 };
