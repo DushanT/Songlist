@@ -2,7 +2,7 @@ var db = {
     "bands": {
         "1": {
             "name": "Imt Smile",
-            "lang": "sk/cz",
+            "lang": "sk-cz",
             "songs": {
                 "1": {
                     "title": "Nepoznám",
@@ -48,7 +48,7 @@ var db = {
         },
         "2": {
             "name": "Horkýže Slíže",
-            "lang": "sk/cz",
+            "lang": "sk-cz",
             "songs": {
                 "0": {
                     "title": "Banda tupých hláv",
@@ -108,7 +108,7 @@ var db = {
         },
         "4": {
             "name": "Jaromír Nohavica",
-            "lang": "sk/cz",
+            "lang": "sk-cz",
             "songs": {
                 "0": {
                     "title": "Afričančata",
@@ -158,7 +158,7 @@ var db = {
         },
         "5": {
             "name": "Bijouterrier",
-            "lang": "sk/cz",
+            "lang": "sk-cz",
             "songs": {
                 "0": {
                     "title": "Babka Natatrouská a Dedo Momuj",
@@ -178,7 +178,7 @@ var db = {
         },
         "7": {
             "name": "Karel Kryl",
-            "lang": "sk/cz",
+            "lang": "sk-cz",
             "songs": {
                 "0": {
                     "title": "Anděl (tak jak ho hrál Karel",
@@ -370,7 +370,7 @@ var db = {
         },
         "13": {
             "name": "Tomáš Klus",
-            "lang": "sk/cz",
+            "lang": "sk-cz",
             "songs": {
                 "0": {
                     "title": "Do nebe",
@@ -396,7 +396,7 @@ var db = {
         },
         "14": {
             "name": "Buty",
-            "lang": "sk/cz",
+            "lang": "sk-cz",
             "songs": {
                 "0": {
                     "title": "Nad stádem koní PŘESNĚJI",
@@ -576,7 +576,7 @@ var db = {
         },
         "28": {
             "name": "Brontosauři",
-            "lang": "sk/cz",
+            "lang": "sk-cz",
             "songs": {
                 "0": {
                     "title": "Igelit",
@@ -602,7 +602,7 @@ var db = {
         },
         "29": {
             "name": "Nedvedi",
-            "lang": "sk/cz",
+            "lang": "sk-cz",
             "songs": {
                 "0": {
                     "title": "Valčíček",
@@ -616,7 +616,7 @@ var db = {
         },
         "30": {
             "name": "Chinaski",
-            "lang": "sk/cz",
+            "lang": "sk-cz",
             "songs": {
                 "0": {
                     "title": "Klára",
@@ -658,7 +658,7 @@ var db = {
         },
         "33": {
             "name": "Divokej Bill",
-            "lang": "sk/cz",
+            "lang": "sk-cz",
             "songs": {
                 "0": {
                     "title": "Znamení",
@@ -718,7 +718,7 @@ var db = {
         },
         "37": {
             "name": "Elán",
-            "lang": "sk/cz",
+            "lang": "sk-cz",
             "songs": {
                 "0": {
                     "title": "Fero",
@@ -788,7 +788,7 @@ var db = {
         },
         "40": {
             "name": "Jaro Filip",
-            "lang": "sk/cz",
+            "lang": "sk-cz",
             "songs": {
                 "0": {
                     "title": "Cez okno",
@@ -834,7 +834,7 @@ var db = {
         },
         "43": {
             "name": "Korben Dallas",
-            "lang": "sk/cz",
+            "lang": "sk-cz",
             "songs": {
                 "0": {
                     "title": "Otec",
